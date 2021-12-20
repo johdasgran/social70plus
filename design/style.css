@@ -1,3 +1,12 @@
+:root {
+    --background-primary: #4ebfa7;
+    --text-color: #264c3d;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 38px;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,8 +15,40 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
 }
 
 body {
-    background-color: #4ebfa7
+    background-color: var(--background-primary);
+}
+
+.container-welcome  {
+    display: grid;
+    place-content: center;
+    padding: 24px;
+    height: 100vh;
+}
+
+
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+.greetings {
+    font-size: var(--lg);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 54px;
+}
+
+.greetings h2 {
+    font-size: var(--lg);
+    font-weight: 700;
+}
+
+.greetings p {
+    font-size: var(--md);
+    font-weight: 300;
 }
