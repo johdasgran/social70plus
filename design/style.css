@@ -15,11 +15,15 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     background-color: var(--background-primary);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--text-color);
 }
 
 .container-welcome  {
@@ -29,18 +33,15 @@ body {
     height: 100vh;
 }
 
-
-
 .logo img {
     width: 300px;
     height: auto;
 }
 
 .greetings {
-    font-size: var(--lg);
     font-weight: 700;
     text-align: center;
-    margin-top: 54px;
+    margin-top: 50px;
 }
 
 .greetings h2 {
@@ -49,6 +50,7 @@ body {
 }
 
 .greetings p {
+    padding-top: 18px ;
     font-size: var(--md);
     font-weight: 300;
 }
